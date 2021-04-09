@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "vtop15+",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["*://vtop.vit.ac.in/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
