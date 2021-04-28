@@ -7,5 +7,9 @@
             "matches": ["*://vtop.vit.ac.in/*"],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "permissions": ["webRequest", "*://vtop.vit.ac.in/*"],
+    "background": {
+        "scripts": ["background.js"]
+    }
 }
